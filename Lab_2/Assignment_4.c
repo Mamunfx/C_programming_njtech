@@ -1,13 +1,10 @@
 #include <stdio.h>
 #define lower 0
-#define upper 300
+#define upper 300  
 #define step 20
-
 int main(){
-    printf("A program to print Fahrenheit to Celsius but define step and upper lower with #define \n");
+    printf("A program to print Fahrenheit to Celsius but definig step and upper lower with #define \n");
     float fahr,celsius;
-    fahr=lower;
-
     fahr=lower;
     while (fahr <= upper)
     {
